@@ -62,7 +62,7 @@ h1{
     padding: 10px 24px;
     font-size: 20px;
 }
-.button:hover{
+.top-detail .button:hover{
     transform: translate(20px) scale(1.2);
     box-shadow: 10px 10px 10px steelblue;
     transition: transform 0.8s ease-in-out ;
@@ -167,6 +167,28 @@ margin-top: 10px;
     font-size: 30px;
 }
 /* my new section */
+.bot-img {
+    margin: 1%;
+}
+.bot-img img{
+    width: 400px;
+    border-radius: 10px;
+}
+.bot-detail{
+    width: 60%;
+    margin-bottom: 5%;
+    color: black;
+}
+.bot-detail h2{
+    color: rgb(76, 0, 255);
+}
+.bot-detail p{
+    margin-bottom: 35px;
+}
+.bot-detail a{
+    text-decoration: none;
+    font-weight: 600;
+}
 
 /* fooer part  */
 footer{
