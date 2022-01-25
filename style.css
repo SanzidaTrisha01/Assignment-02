@@ -251,8 +251,6 @@ footer p{
     }
     h1{
         font-size: 28px;
-        margin-top: 20px;
-        margin-bottom: 20px;
     }
     .logos{
         display: flex;
@@ -320,14 +318,11 @@ footer p{
     }
     h1{
         font-size: 40px;
-        margin-top: 20px;
-        margin-bottom: 20px;
     }
     .logos{
         margin: 8%;
     }
     .middle{
-        position: relative;
         margin: 5% 7%;
     }
     .mid-col{
@@ -344,6 +339,47 @@ footer p{
     }
     .bot-detail{
         width: 80%;
+    }
+    footer{
+        position: relative;
+        top: 1164px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1312px) {
+    header nav{
+        margin: 5%;
+    }
+    .top{
+        margin: 5%;
+    }
+    .top-img img{
+        max-width:85%;
+    }
+    .top-detail{
+        width: 60%;
+        margin: 0 20px;
+    }
+    h1{
+        font-size: 45px;
+    }
+    .logos{
+        margin: 5% 10%;
+    }
+    .middle{
+        margin: 5% 8%;
+    }
+    .mid-col{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+    .new-part{
+        align-items: center;
+        position: relative;
+        top: 1150px;
+    }
+    .bot-detail{
+        margin-left: 5%;
     }
     footer{
         position: relative;
