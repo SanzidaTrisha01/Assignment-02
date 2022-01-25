@@ -83,7 +83,7 @@ h1{
     border-image-slice: 1;
 }
 .logos img{
-max-width: 15%;
+max-width: 10%;
 padding: 3%;
 }
 /* middle Collection part */
@@ -286,7 +286,7 @@ footer p{
         top: 3480px;
     }
 }
-@media only screen and (min-width: 688px) and (max-width: 912px) {
+@media only screen and (min-width: 688px) and (max-width: 992px) {
     header nav{
         margin: 5%;
     }
@@ -323,9 +323,12 @@ footer p{
         margin-top: 20px;
         margin-bottom: 20px;
     }
+    .logos{
+        margin: 8%;
+    }
     .middle{
         position: relative;
-        margin: 5%;
+        margin: 5% 7%;
     }
     .mid-col{
         display: grid;
@@ -340,10 +343,7 @@ footer p{
         align-items: center;
     }
     .bot-detail{
-        width: 90%;
-    }
-    .bot-img img{
-        width: 379px;
+        width: 80%;
     }
     footer{
         position: relative;
